@@ -1,0 +1,32 @@
+# OS & Editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# Logs
+logs/*.log
+*.log
+!logs/.gitkeep
+
+# Node & Build artifacts
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Scripts
+!scripts/.gitkeep
+
+# Secrets & Certs
+*.key
+*.pem
+*.tmp
+*.bak

@@ -1,0 +1,15 @@
+{
+  "wallpapers": [
+    {
+      "id": "bunny_snow",
+      "name": "兔可可 · 纯真雪白",
+      "file": "wallpaper/IMG_2833.min.b64",
+      "raw": "wallpaper/IMG_2833.PNG",
+      "b64": true,
+      "parts": 3,
+      "size": 334780
+    }
+  ],
+  "updatedAt": "2026-10-03T11:10:00Z",
+  "note": "开源精简版壁纸包: 包含经典兔可可高清壁纸 (IMG_2833.PNG) 与 3 分片渐进式流式壁纸"
+}
