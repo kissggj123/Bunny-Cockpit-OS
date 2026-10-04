@@ -2,7 +2,7 @@
 
 > **Bunny Cockpit OS (bcos)** · 专为智能新能源车机中控大屏、桌面及移动端精心打造的沉浸式虚拟操作系统与纪念日流转空间。
 
-[![Version](https://img.shields.io/badge/version-v7.8.4.9409-00eaff.svg?style=flat-square)](https://github.com/kissggj123/Bunny-Cockpit-OS)
+[![Version](https://img.shields.io/badge/version-v7.8.4.9410-00eaff.svg?style=flat-square)](https://github.com/kissggj123/Bunny-Cockpit-OS)
 [![Platform](https://img.shields.io/badge/platform-NIO%20%7C%20XPENG%20%7C%20Li%20Auto%20%7C%20Tesla%20%7C%20Web%20PWA-ff6b9d.svg?style=flat-square)](https://github.com/kissggj123/Bunny-Cockpit-OS)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
 [![GitHub Pages](https://img.shields.io/badge/deploy-GitHub%20Pages-blue.svg?style=flat-square&logo=github)](https://pages.github.com/)
@@ -245,7 +245,13 @@ const START_DATE = '2024/03/12 00:00:00';
 
 ## 📋 版本更新日志
 
-### **v7.8.4.9409** *(当前版本)*
+### **v7.8.4.9410** *(当前版本)*
+- **车机锁屏壁纸多维自适应引擎**：全面引入 5 种专业壁纸缩放自适应模式（Fill Screen 充满屏幕、Fit to Screen 适应屏幕等比完整、Stretch to Fill Screen 强制拉伸填满、Center 居中原始1:1像素、Tile 平铺横纵阵列网格），方便车机中控大屏、竖屏、异形屏自适应不同的壁纸。
+- **macOS 原生级半透明雾面玻璃 Popover 菜单**：打造与系统级桌面一致的浮动下拉弹窗体验（blur 28px + 12px 圆角 + 选定项勾选「✓」指示），在壁纸管理弹窗与快捷控制中心全端同步，同时支持在锁屏背景空白处右键呼出浮动菜单与按键盘 `Escape` 键随时收起。
+
+---
+
+### **v7.8.4.9409**
 - **消除非全屏状态下「累计航程」与时间的不对齐缺陷**：精准定位并修复在窗口非全屏时下边距破坏 Flex 对齐的问题，重构为高精度独立居中微胶囊架构。
 - **开源发布与环境解耦**：完成核心干净资产梳理与开源代码仓初始化，支持 GitHub Pages、Cloudflare、Docker 等一键自由部署。
 
